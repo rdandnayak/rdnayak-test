@@ -1,6 +1,6 @@
-import {join} from 'path'
+import { join } from 'path';
 
-const context = join(__dirname, 'src')
+const context = join(__dirname, 'src');
 
 export default {
   context,
@@ -8,13 +8,13 @@ export default {
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'starWarsNames',
+    library: 'rdnayakTest'
   },
   devtool: 'source-map',
   module: {
     loaders: [
-      {test: /\.js$/, loaders: ['babel'], include: context},
-      {test: /\.json$/, loaders: ['json'], include: context},
-    ],
-  },
-}
+      { test: /\.js$/, loaders: ['babel'], include: context },
+      { test: /\.json$/, loaders: ['json'], include: context }
+    ]
+  }
+};

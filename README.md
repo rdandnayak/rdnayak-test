@@ -1,3 +1,3 @@
-# starwars-names
+# rdnayak-test
 
-For all your random Star Wars character needs
+For all your random Github character needs
