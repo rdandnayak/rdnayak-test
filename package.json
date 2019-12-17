@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/rdandnayak/rdnayak-test#readme",
   "dependencies": {
+    "codecov": "^3.6.1",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
