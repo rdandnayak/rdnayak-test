@@ -15,7 +15,7 @@
     "watch:test": "mocha --watch",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
